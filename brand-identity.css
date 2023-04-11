@@ -1,0 +1,20 @@
+.brand_sec_5 .box-b {
+    background: url("./imgs/brand-1.png") no-repeat center !important;
+    background-size: cover;
+}
+
+.brand_sec_5 .box-c {
+    background: url("./imgs/brand-2.png") no-repeat center !important;
+    background-size: cover;
+}
+
+
+
+.brand_sec_5 .box-d {
+    background-position: right !important;
+}
+    
+
+@media screen and (max-width: 820px) {
+
+}

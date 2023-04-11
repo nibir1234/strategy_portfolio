@@ -1,0 +1,39 @@
+.ui_sec_5 .box-b{
+    background-image: none !important;
+    background-color: #dfb977 !important;
+}
+.ui_sec_5 .box-c{
+    background: none !important;
+    padding: 0 !important;
+    background-color: #9050ff !important;
+}
+.ui-b2{
+    font-family: 'Lato';
+    font-weight: 300 !important;
+    padding-bottom: 2rem;
+}
+
+.ui_sec_5 .box-a , .ui_sec_5 .box-d {
+    padding: 9rem 5rem 5rem 5rem;
+}
+
+.box-b img {
+    z-index: 0 !important;
+}
+
+
+
+
+@media screen and (max-width: 820px) {
+
+
+
+    .ui_sec_5 .box-a , .ui_sec_5 .box-d {
+        padding: 5rem 3rem 3rem 3rem;
+    }
+    .our_services_sec_5 .box-d {
+        background-size: auto !important;
+    }
+    
+
+}

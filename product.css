@@ -1,0 +1,159 @@
+
+
+.sec-5{
+  overflow: hidden;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0;
+  background-color: #fff;
+  color: white;
+}
+
+.box {
+  background-color: black;
+  color: #fff;
+  font-size: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.box-a{
+  padding: 0 0rem 0 8rem;
+}
+#ba1{
+  font-weight: bold;
+  color: gray;
+  padding-bottom: 2rem;
+}
+#ba2{
+  font-weight: bold;
+  font-size: 5rem;
+  padding-bottom: 5rem;
+}
+#ba3{
+  color: gray;
+}
+#bbtn1{
+  background-color: blue;
+  border:0px;
+  padding: 1rem 1.5rem;
+  border-radius: 50%;
+  margin: 5rem 0 0 0;
+}
+#bbtn2{
+  background-color: white;
+  color: blue;
+  font-weight: bold;
+  border:0px;
+  padding: 1.3rem 2rem;
+  border-radius: 50px;
+  margin: 5rem 0 0 0;
+}
+
+
+
+
+
+.box-b,.box-c,.box-f {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-b{
+  background-color: #dfb977;
+}
+.box-b img{
+  width: 80rem;
+  height: auto;
+  object-fit: contain;
+  z-index: 3;
+}
+.box-c{
+  background-color: #9050ff;
+}
+.box-c img{
+  width: 70rem;
+  height: auto;
+  object-fit: contain;
+  z-index: 3;
+}
+.box-f{
+  background-color: #54dabc;
+}
+.box-f img{
+  width: 70rem;
+  height: auto;
+  object-fit: contain;
+}
+.box-d {
+  background: url("./imgs/yogi.png") no-repeat center;
+  background-size: cover;
+}
+
+
+
+
+@media screen and (max-width: 820px) {
+
+  .grid-wrapper {
+    grid-template-columns: 100%;
+  }
+  
+  .box {
+    font-size: 120%;
+    height: 60vh;
+  }
+  
+  .box-a{
+    padding: 0 0rem 0 2rem;
+  }
+  #ba1{
+    padding-bottom: 2rem;
+  }
+  #ba2{
+    font-weight: bold;
+    font-size: 3rem;
+    padding-bottom: 5rem;
+  }
+  #bbtn1{
+    padding: 1rem 1.5rem;
+    margin: 5rem 0 0 0;
+  }
+  #bbtn2{
+    padding: 1.3rem 2rem;
+    border-radius: 50px;
+    margin: 5rem 0 0 0;
+  }
+  
+  .box-b,.box-c,.box-f {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-a {grid-row: 1;}
+  .box-b {grid-row: 2;}
+  .box-b img{
+    width: 50rem;
+  }
+  .box-c {grid-row: 4;}
+  .box-c img{
+    width: 70rem;
+    height: auto;
+    object-fit: contain;
+  }
+  .box-d {grid-row: 3;}
+  .box-e {grid-row: 5;}
+  .box-f {grid-row: 6;}
+  .box-f img{
+    width: 70rem;
+    height: auto;
+    object-fit: contain;
+  }
+
+}

@@ -1,0 +1,10 @@
+.sec-5 #social_box_b {
+    background: url("./imgs/social-1.png") no-repeat center !important;
+    background-size: cover;
+}
+
+.sec-5 #social_box_c {
+    background: url("./imgs/social-2.png") no-repeat center !important;
+    background-size: cover;
+}
+

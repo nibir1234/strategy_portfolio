@@ -1,0 +1,57 @@
+.brnd-slider {
+  padding-bottom: 3rem;
+}
+
+.branding-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logos img {
+    width: 12rem;
+    height: auto;
+    padding: .5rem 2rem;
+}
+  
+  .container {
+    overflow: hidden;
+  }
+  .container .slider {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;
+  }
+  .container .slider .logos {
+    width: 100%;
+    display: inline-block;
+    margin: 0px 0;
+  }
+  .container .slider .logos .fab {
+    width: calc(100% / 5);
+    animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+  }
+  
+  @keyframes slidein {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+@media screen and (max-width: 820px) {
+  .brnd-slider {
+    padding-bottom: 1rem;
+  }  
+}
