@@ -9,6 +9,61 @@
   box-sizing: border-box;
 }
 
+
+/*** remove if faced issue */
+button{
+  transition: all .3s ease-in-out;
+}
+button:hover {
+  background-color: #1e56ff;
+  color: white;
+  border-color: white;
+  font-weight: bold;
+  transform: scale(1.2);
+}
+.sec-6 .work-btn:hover {
+  background-color: white;
+  color: #1e56ff;
+  border-color: #1e56ff;
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+.frame{
+  animation: animName 3s linear infinite;
+  /*** remove if faced issues */
+  /* position: absolute; */
+  right: 5rem;
+}
+
+@keyframes animName {
+ 0%{
+    transform: rotate(0deg);
+   }
+100%{
+    transform: rotate(360deg);
+   }
+}
+
+#anim2 {
+  animation: animate2 1.5s cubic-bezier(0.25,0.1,0.25,1) infinite !important;
+  /*** remove if faced issues */
+}
+@keyframes animate2 {
+  0%{
+      transform:translateY(-2px);
+    }
+  50%{
+     transform:translateY(4px);
+  }
+ 100%{
+      transform:translateY(-2px);
+    }
+ }
+
+/* *** */
+
+
 body[data-aos-duration='1000'] [data-aos],
 [data-aos][data-aos][data-aos-duration='1000'] {
   transition-duration: 1000ms;
