@@ -179,13 +179,13 @@ function init() {
       opacity: 1,
       y: 0
     }, "-=.13")
-    .fromTo(about, 0.3, {
-      opacity: 0,
-      y: 10
-    }, {
-      opacity: 1,
-      y: 0
-    }, "-=.16")
+    // .fromTo(about, 0.3, {
+    //   opacity: 0,
+    //   y: 10
+    // }, {
+    //   opacity: 1,
+    //   y: 0
+    // }, "-=.16")
     .fromTo(contact, 0.3, {
       opacity: 0,
       y: 10

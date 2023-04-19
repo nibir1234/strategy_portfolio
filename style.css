@@ -392,7 +392,7 @@ nav {
   height: 100vh;
   width: 50%;
   position: relative;
-  top: 20rem;
+  top: 15rem;
   left: -10rem;
 }
 
@@ -412,7 +412,7 @@ nav {
   text-decoration: underline;
   text-underline-offset: .9rem;
 }
-.services {padding-bottom: 1.5rem;}
+/* .services {padding-bottom: 1.5rem;} */
 .services h3 {margin-bottom: 0;}
 .nav-services-chld{ border-left: 1px solid #1e56ff; margin-left: 1.5rem;width: 100%;}
 .nav-services-chld a h3{
