@@ -1,0 +1,10 @@
+#print_sec #print_box_b {
+    background: url("./imgs/print_1.png") no-repeat center !important;
+    background-size: cover;
+}
+
+#print_sec #print_box_c {
+    background: url("./imgs/print_2.png") no-repeat center !important;
+    background-size: cover;
+}
+

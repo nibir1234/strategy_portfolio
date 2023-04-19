@@ -1,0 +1,9 @@
+#app_sec #app_box_b {
+    background: url("./imgs/app_1.png") no-repeat center !important;
+    background-size: cover;
+}
+
+#app_sec #app_box_c {
+    background: url("./imgs/app_2.png") no-repeat center !important;
+    background-size: cover;
+}
