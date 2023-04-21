@@ -1,0 +1,9 @@
+#photo_sec #photo_box_b {
+    background: url("./imgs/photog_1.png") no-repeat center !important;
+    background-size: cover;
+}
+
+#photo_sec #photo_box_c {
+    background: url("./imgs/photog_2.png") no-repeat center !important;
+    background-size: cover;
+}

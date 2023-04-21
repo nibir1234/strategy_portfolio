@@ -1,0 +1,9 @@
+#video_sec #video_box_b {
+    background: url("./imgs/videog_1.png") no-repeat center !important;
+    background-size: cover;
+}
+
+#video_sec #video_box_c {
+    background: url("./imgs/videog_2.png") no-repeat center !important;
+    background-size: cover;
+}
