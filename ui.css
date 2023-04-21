@@ -1,3 +1,7 @@
+#ui_yog {
+    padding-top: 17rem;
+}
+
 .ui_sec_5 .box-b{
     background-image: none !important;
     background-color: #dfb977 !important;
@@ -26,7 +30,9 @@
 
 @media screen and (max-width: 820px) {
 
-
+    #ui_yog {
+        padding-top: 5rem;
+    }
 
     .ui_sec_5 .box-a , .ui_sec_5 .box-d {
         padding: 5rem 3rem 3rem 3rem;

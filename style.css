@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+.carousel-item p {
+  font-weight: bold;
+}
+
 
 /*** remove if faced issue */
 button{
@@ -478,7 +482,7 @@ nav {
   font-family: PopLight;
   font-size: 2rem;
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   background: url("./imgs/services.png");
   background-position: right;
   background-repeat: no-repeat;
@@ -681,7 +685,7 @@ nav {
   padding: 6rem 1rem 0 1rem;
   font-size: 2rem;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
